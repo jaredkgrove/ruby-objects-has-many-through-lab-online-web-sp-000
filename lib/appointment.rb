@@ -6,6 +6,7 @@ class Appointment
     @date = date
     @doctor = doctor
     @patient = patient
+    puts date
     self.class.all << self
   end
   
